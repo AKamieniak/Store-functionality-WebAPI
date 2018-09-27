@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\WebApiCore.Repository.deps.json
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\WebApiCore.Repository.dll
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\WebApiCore.Repository.pdb
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\System.Data.SqlClient.dll
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\WebApiCore.Configuration.dll
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\WebApiCore.Models.dll
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\WebApiCore.Configuration.pdb
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\WebApiCore.Models.pdb
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\bin\Debug\netcoreapp2.0\System.Data.SqlClient.xml
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\obj\Debug\netcoreapp2.0\WebApiCore.Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\obj\Debug\netcoreapp2.0\WebApiCore.Repository.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\obj\Debug\netcoreapp2.0\WebApiCore.Repository.AssemblyInfo.cs
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\obj\Debug\netcoreapp2.0\WebApiCore.Repository.csproj.CopyComplete
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\obj\Debug\netcoreapp2.0\WebApiCore.Repository.dll
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\obj\Debug\netcoreapp2.0\WebApiCore.Repository.pdb
+C:\Users\User\source\repos\WebApiCore\WebApiCore.Repository\obj\Debug\netcoreapp2.0\WebApiCore.Repository.csprojAssemblyReference.cache
