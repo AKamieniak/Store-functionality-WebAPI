@@ -18,6 +18,8 @@
             <summary>
             Add an employee.
             </summary>
+            <response code="201">Returns the newly added employee</response>
+            <response code="400">If the item is null</response>            
         </member>
         <member name="M:WebApiCore.Controllers.EmployeesController.DeleteEmployee(System.Int32)">
             <summary>

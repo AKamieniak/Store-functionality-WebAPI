@@ -9,6 +9,7 @@ using WebApiCore.Repository;
 namespace WebApiCore.Controllers
 {
     [Route("api/employees")]
+    [Produces("application/json")]
     public class EmployeesController : Controller
     {
         private IEmployeesRepository _employeesRepository;
@@ -45,8 +46,12 @@ namespace WebApiCore.Controllers
         /// <summary>
         /// Add an employee.
         /// </summary>
+        /// <response code="201">Returns the newly added employee</response>
+        /// <response code="400">If the item is null</response>            
         [Route("add")]
         [HttpPost]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
         public void AddEmployee([FromBody]Employee employee)
         {
             _employeesRepository.AddEmployee(employee);
