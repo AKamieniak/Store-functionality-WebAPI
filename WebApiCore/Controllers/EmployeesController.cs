@@ -19,6 +19,9 @@ namespace WebApiCore.Controllers
         }
 
         // GET api/employees/get-last-index 
+        /// <summary>
+        /// Get last index of employee.
+        /// </summary>
         [Route("get-last-index")]
         [HttpGet]
         public int GetLastIndexOfEmployee() 
@@ -28,6 +31,9 @@ namespace WebApiCore.Controllers
         }
 
         // GET api/employees/get-by-shop-id/{0}
+        /// <summary>
+        /// Get employees with same shop ID.
+        /// </summary>
         [Route("get-by-shop-id/{id}")]
         [HttpGet]
         public List<Employee> GetEmployeesByShopId(int id)
@@ -36,6 +42,9 @@ namespace WebApiCore.Controllers
         }
 
         // POST api/employees/add
+        /// <summary>
+        /// Add an employee.
+        /// </summary>
         [Route("add")]
         [HttpPost]
         public void AddEmployee([FromBody]Employee employee)
@@ -44,6 +53,9 @@ namespace WebApiCore.Controllers
         }
 
         // DELETE api/employees/delete/{0}
+        /// <summary>
+        /// Deletes an employee by ID.
+        /// </summary>
         [Route("delete/{id}")]
         [HttpDelete]
         public void DeleteEmployee(int id)

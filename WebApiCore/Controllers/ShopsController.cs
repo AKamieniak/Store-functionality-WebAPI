@@ -21,6 +21,9 @@ namespace WebApiCore.Controllers
         }
 
         // GET api/shops/get-last-index
+        /// <summary>
+        /// Get last index of shop.
+        /// </summary>
         [Route("get-last-index")]
         [HttpGet]
         public int GetLastIndex()
@@ -28,8 +31,11 @@ namespace WebApiCore.Controllers
             //---get last index of shop---
             return _shopsRepository.GetLastIndexOfShop();
         }
-        
+
         // GET api/shops/get-by-city
+        /// <summary>
+        /// Get shops with same city.
+        /// </summary>
         [Route("get-by-city/{city}")]
         [HttpGet]
         public List<Shop> GetShopsByCity(string city)
@@ -38,6 +44,9 @@ namespace WebApiCore.Controllers
         }
 
         // GET: api/shops/get-all
+        /// <summary>
+        /// Get all shops.
+        /// </summary>
         [Route("get-all")]
         [HttpGet]
         public List<Shop> GetShopsAll()
@@ -47,6 +56,9 @@ namespace WebApiCore.Controllers
         }
 
         // POST: api/shops/add
+        /// <summary>
+        /// Add a shop.
+        /// </summary>
         [Route("add")]
         [HttpPost]
         public void AddShop([FromBody]Shop shop)
@@ -55,6 +67,9 @@ namespace WebApiCore.Controllers
         }
 
         // DELETE: api/shops/delete/{0}
+        /// <summary>
+        /// Deletes a shop by ID.
+        /// </summary>
         [Route("delete/{id}")]
         [HttpDelete]
         public void DeleteShop(int id)

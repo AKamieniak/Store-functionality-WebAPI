@@ -18,3 +18,5 @@ C:\Users\User\source\repos\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.0\WebApiC
 C:\Users\User\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.0\app.config
 C:\Users\User\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.0\WebApiCore.dll.config
 C:\Users\User\source\repos\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.0\WebApiCore.csprojAssemblyReference.cache
+C:\Users\User\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.0\WebApiCore.xml
+C:\Users\User\source\repos\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.0\WebApiCore.xml

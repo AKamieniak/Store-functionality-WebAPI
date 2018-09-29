@@ -21,6 +21,9 @@ namespace WebApiCore.Controllers
         }
 
         // GET api/positions/get-last-index
+        /// <summary>
+        /// Get last index of position.
+        /// </summary>
         [Route("get-last-index")]
         [HttpGet]
         public int GetLastIndex()
@@ -30,6 +33,9 @@ namespace WebApiCore.Controllers
         }
 
         // GET: api/positions/get-all
+        /// <summary>
+        /// Get all positions.
+        /// </summary>
         [Route("get-all")]
         [HttpGet]
         public List<Position> GetPositionsAll()
@@ -39,6 +45,9 @@ namespace WebApiCore.Controllers
         }
 
         // POST: api/positions/add
+        /// <summary>
+        /// Add a position.
+        /// </summary>
         [Route("add")]
         [HttpPost]
         public void AddPosition([FromBody]Position position)
@@ -47,6 +56,9 @@ namespace WebApiCore.Controllers
         }
 
         // DELETE: api/positions/delete/{0}
+        /// <summary>
+        /// Deletes a position by ID.
+        /// </summary>
         [Route("delete/{id}")]
         [HttpDelete]
         public void DeletePosition(int id)

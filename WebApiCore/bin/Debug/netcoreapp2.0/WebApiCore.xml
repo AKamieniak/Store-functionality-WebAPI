@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiCore</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiCore.Controllers.EmployeesController.GetLastIndexOfEmployee">
+            <summary>
+            Get last index of employee.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.EmployeesController.GetEmployeesByShopId(System.Int32)">
+            <summary>
+            Get employees with same shop ID.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.EmployeesController.AddEmployee(WebApiCore.Models.Employee)">
+            <summary>
+            Add an employee.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.EmployeesController.DeleteEmployee(System.Int32)">
+            <summary>
+            Deletes an employee by ID.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.PositionsController.GetLastIndex">
+            <summary>
+            Get last index of position.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.PositionsController.GetPositionsAll">
+            <summary>
+            Get all positions.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.PositionsController.AddPosition(WebApiCore.Models.Position)">
+            <summary>
+            Add a position.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.PositionsController.DeletePosition(System.Int32)">
+            <summary>
+            Deletes a position by ID.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.ShopsController.GetLastIndex">
+            <summary>
+            Get last index of shop.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.ShopsController.GetShopsByCity(System.String)">
+            <summary>
+            Get shops with same city.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.ShopsController.GetShopsAll">
+            <summary>
+            Get all shops.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.ShopsController.AddShop(WebApiCore.Models.Shop)">
+            <summary>
+            Add a shop.
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.ShopsController.DeleteShop(System.Int32)">
+            <summary>
+            Deletes a shop by ID.
+            </summary>
+        </member>
+    </members>
+</doc>
