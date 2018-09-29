@@ -31,7 +31,17 @@ namespace WebApiCore
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info {
+                    Title = "My Web API",
+                    Version = "v1",
+                    Description = "A simple example ASP.NET Core Web API",
+                    Contact = new Contact
+                    {
+                        Name = "Ola Kamieniak",
+                        Email = "olakamieniak@o2.pl",
+                        Url = "https://www.facebook.com/ola.kamieniak.5"
+                    }
+                });
             });
 
             //---interfaces--- ----IMPORTANT------
